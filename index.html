@@ -409,7 +409,7 @@
         nextBtn.innerText = 'Enviando...';
 
         try {
-          const response = await fetch('archivoprocesador.php', {
+          const response = await fetch('guardar.php', {
             method: 'POST',
             body: formData
           });
